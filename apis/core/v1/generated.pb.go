@@ -10482,7 +10482,7 @@ type Volume struct {
 	// VolumeSource represents the location and type of the mounted volume.
 	// If not specified, the Volume is implied to be an EmptyDir.
 	// This implied behavior is deprecated and will be removed in a future version.
-	VolumeSource     *VolumeSource `protobuf:"bytes,2,opt,name=volumeSource" json:"volumeSource,omitempty"`
+	VolumeSource     *VolumeSource `protobuf:"bytes,2,opt,name=volumeSource" json:",inline"`
 	XXX_unrecognized []byte        `json:"-"`
 }
 
