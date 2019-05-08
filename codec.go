@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ericchiang/k8s/runtime"
+	"github.com/parryjacob/k8s/runtime"
 	"github.com/golang/protobuf/proto"
 )
 

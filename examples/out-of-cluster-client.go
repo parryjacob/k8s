@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ericchiang/k8s"
+	"github.com/parryjacob/k8s"
 
 	"github.com/ghodss/yaml"
 )
